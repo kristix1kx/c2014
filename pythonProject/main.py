@@ -127,7 +127,7 @@ class Human:
         elif self.money<0:
             print("start working")
             self.work()
-        elif self.car.stregth<15:
+        elif self.car.strength<15:
             print(" I need to repair my car")
             self.to_repair()
         elif dice==1:
