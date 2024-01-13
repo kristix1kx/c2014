@@ -4,6 +4,7 @@ class cat:
         self.gladness=50
         self.famine=50
         self.alive=True
+
     def to_eat(self):
         print("time to eat")
         self.progress+=1
@@ -28,6 +29,7 @@ class cat:
     def end_of_day(self):
         print(f"Gladness - {self.gladness}")
         print(f"famine - {round(self.famine,2)}")
+
     def live(self,day):
         day="Day" + str(day) + "of" = self.name + "life"
         print(f"{day:=^50}")
